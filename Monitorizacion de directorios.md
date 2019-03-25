@@ -14,7 +14,7 @@
 
 
 ### Explicación del código:
-	El código estaá dividido en dos ficheros distintos:
+	El código está dividido en dos ficheros distintos:
 		* scriptfichero.sh: Este fichero ejecuta el archivo script.sh en segundo plano sin que se bloquee la consola del usuario por 					 el comando inotifywait. Para hacer que el script.sh se ejecute en segundo plano hemos optado por utilizar 						el comando nohup.
 
 		* script.sh: Este fichero contiene toda el código de monitorización y el formateo de la salida, así como la ruta de los 				 directorios a monitorizar. Si queremos cambiar el directorio a monitorizar habria que modificar la segunda linea 			   de este fichero intercambiando la ruta de '/media' por la ruta deseada.
@@ -25,6 +25,6 @@
 					 	* En el dia en que se produjo la modificación
 
 ### Referencias:
-	 [Wiki del proyecto iNotify-tools](https://github.com/rvoicilas/inotify-tools/wiki)
-	* [Manual del comando inotifywait](https://linux.die.net/man/1/inotifywait)
-	* [Manual del comando nohup](https://linux.die.net/man/1/nohup)
+	* [Wiki del proyecto iNotify-tools] (https://github.com/rvoicilas/inotify-tools/wiki)
+	* [Manual del comando inotifywait] (https://linux.die.net/man/1/inotifywait)
+	* [Manual del comando nohup] (https://linux.die.net/man/1/nohup)
