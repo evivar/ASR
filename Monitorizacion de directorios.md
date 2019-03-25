@@ -25,6 +25,6 @@
 					 	* En el dia en que se produjo la modificación
 
 ### Referencias:
-	* [Wiki del proyecto iNotify-tools](https://github.com/rvoicilas/inotify-tools/wiki)
+	 [Wiki del proyecto iNotify-tools](https://github.com/rvoicilas/inotify-tools/wiki)
 	* [Manual del comando inotifywait](https://linux.die.net/man/1/inotifywait)
 	* [Manual del comando nohup](https://linux.die.net/man/1/nohup)
